@@ -1,0 +1,83 @@
+
+
+body {
+  background-image: url(http://eskipaper.com/images/free-hd-background-2.jpg);
+}
+h2{
+  outline: 1px solid #660066;
+    color: #e6e6e6;
+  text-align: center;
+  font-family: 'Lora', serif;
+}
+p{
+  font-family: 'Lora', serif;
+  margin-top: 50px;
+margin-left: 50px;
+  font-size: 1.5em;
+  color: antiquewhite;
+}
+
+header h1 {
+font-family: 'Lora', serif;
+outline: 2px solid #660066;
+  color: #e6e6e6;
+text-align: center;
+
+  }
+
+#box2 {
+  font-family: 'Lora', serif;
+  color: #e6e6e6;
+text-align: center;
+}
+  section {
+    outline: 2px solid #660066;
+  }
+
+
+  nav {
+    font-family: 'Lora', serif;
+    text-align: center;
+  }
+a { color: white;
+  font-family: cursive;
+  font-family: 'Lora', serif;
+}
+
+
+#box a{
+  margin: 2px;
+  border: 4px solid transparent;
+  display: inline-block;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+}
+
+
+#imagelist{
+  font-size: 0;
+  width: 125px;
+  margin: 0 auto;
+}
+
+#imagelist a {
+  margin: 2px;
+  border: 4px solid transparent;
+  display: inline-block;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+
+}
+ #box a:hover {
+   border-color: white;
+
+ }
+
+
+
+
+  footer {
+
+    text-align: center;
+    color: white;
+  }
