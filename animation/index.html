@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Artist Manifesto</title>
+  <link rel="stylesheet" href="css/animation.css">
+
+<style>
+  #walking{
+  position: absolute;
+  padding-left: 0px;
+  margin-left: 200px;
+  margin-top: 300px;
+  height: 180px;
+  width: 120px;
+  background: url("images/adam.png");
+  -webkit-animation: walk-east  1.0s steps(8) infinite;
+  animation: walk-east 1.0s steps(8) infinite;
+  }
+  @-webkit-keyframes walk-east {
+  from {background-position: 0px;}
+  to{background-position: -960px;}
+  }
+  @keyframes walk-east {
+  from {background-position: 0px;}
+  to{background-position: -960px;}
+  }
+
+  </style>
+<body>
+  <h2> Artist Manifesto</h2>
+<img id="spiral" src="images/spiral.jpg" alt="spiral" width="120" height="120">
+    <div id="parent">
+      <h1 id="revolution"> REVOLUTION </h1>
+      <div id="walking">
+    </div>
+</div>
+</body>
+</html>

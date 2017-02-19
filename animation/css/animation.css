@@ -1,0 +1,45 @@
+
+
+#spiral {
+
+  position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 500px;
+    height: 500px;
+    margin:-80px 0 0 -80px;
+    -webkit-animation:spin 4s linear infinite;
+    animation:spin 4s linear infinite;
+}
+
+@-webkit-keyframe spin { 50% { transform: rotate(360deg); } }
+@keyframes spin { 100% { transform: rotate(400deg); transform:rotate(3600deg); } }
+
+#revolution{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 200px;
+  height: 200px;
+  margin-left: 60px;
+  margin-top: 60px;
+  animation: spin 7s infinite;
+  color: red;
+}
+
+#parent:hover #revolution  {
+
+  top:150px;
+  left:500px;
+  opacity:1;
+  -webkit-animation:spin 4s linear infinite;
+  animation:spin 4s linear infinite;
+}
+
+
+h2{
+  text-align: center;
+  border-top: 3px solid black;
+  font-size: 40px;
+  font-style: italic;
+}
