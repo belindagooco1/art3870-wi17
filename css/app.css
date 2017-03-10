@@ -8,7 +8,7 @@ h2{
     color:  antiquewhite;
   text-align: center;
   font-family: 'Lora', serif;
-  font-size: 1.5em;
+  font-size: 2em;
 }
 p{
   font-family: 'Lora', serif;
@@ -39,7 +39,7 @@ text-align: center;
   nav {
     font-family: 'Lora', serif;
     text-align: center;
-    font-size:1.5em;
+      font-size: 1.5em;
   }
 a { color: white;
   font-family: cursive;
